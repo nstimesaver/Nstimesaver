@@ -1,0 +1,55 @@
+# Privacy Policy — NetSuite CSV Template Generator
+
+**Effective date:** 2026-04-23
+
+This Privacy Policy describes how the **NetSuite CSV Template Generator** Chrome extension (the “Extension”) handles data when you use it.
+
+## Summary
+- The Extension accesses **website content from NetSuite pages** (transaction form field labels and, when available, field values and sublist table values) **only when you click the Extension**.
+- The Extension generates a **CSV file locally in your browser** for download.
+- The Extension **does not transmit** NetSuite record data to any external server.
+- The Extension stores only **user preferences** (e.g., selected options) using Chrome local storage.
+
+## Data the Extension accesses
+When you open the Extension on a NetSuite transaction page, it may access:
+- The **active tab URL** (to confirm the page is a supported NetSuite/Oracle domain and determine record context).
+- **NetSuite page content (text)** required to generate the CSV, including:
+  - Record type and record internal ID (when present in the URL)
+  - Field labels, and (in View mode) field values
+  - Sublist/table headers and line values for supported sublists
+
+The Extension does **not** intentionally collect images, audio, or video from websites.
+
+## When data is accessed
+The Extension accesses NetSuite page content **only in response to direct user action** (for example, when you click the Extension icon and/or click “Download CSV Template”). It does not continuously monitor pages in the background.
+
+## Data storage
+The Extension stores the following **preferences** in `chrome.storage.local`:
+- Advanced options panel open/closed state
+- Selected field filter mode (e.g., all / with values / manual)
+- Include sublists / include section headers toggles
+- Sublist selection preferences
+
+The Extension does **not** store extracted NetSuite record values as long-term data; extracted values are used to generate the CSV and exist only in memory during the current use.
+
+## Data sharing / transfers
+The Extension **does not sell, rent, or share** your NetSuite record data with third parties.
+
+The Extension **does not send** extracted NetSuite record data to any external servers.
+
+## Remote code
+The Extension does not download or execute remote JavaScript code for its functionality. All extraction and CSV-generation logic is packaged with the Extension.
+
+## Third-party services
+The Extension may load external resources for UI styling (for example, fonts). If external assets are used, the request is made directly from your browser to the provider and may include standard web request metadata (such as IP address and user agent). No NetSuite record data is included in those requests.
+
+## Security
+The Extension is designed to process data locally and minimize access to only what is required to generate the CSV template from the active NetSuite transaction page.
+
+## Changes to this policy
+This Privacy Policy may be updated from time to time. Changes will be posted on this page with an updated effective date.
+
+## Contact
+If you have questions about this Privacy Policy, contact:
+- **Matias Maurin**
+- **Email:** mati.maurin@gmail.com
